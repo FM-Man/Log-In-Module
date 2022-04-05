@@ -125,33 +125,33 @@
 
                                                 <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
 
-                                                <form class="mx-1 mx-md-4" action="signup-be.php" method="GET">
+                                                <form class="mx-1 mx-md-4" action="signup-be.php" method="POST">
 
                                                     <div class="d-flex flex-row align-items-center mb-4">
                                                         <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                                                         <div class="form-outline flex-fill mb-0">
-                                                            <input type="text" id="form3Example1c" class="form-control" placeholder="Your Name" />
+                                                            <input type="text" id="form3Example4cd" class="form-control" name="name" placeholder="Your Name" />
                                                         </div>
                                                     </div>
 
                                                     <div class="d-flex flex-row align-items-center mb-4">
                                                         <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                                         <div class="form-outline flex-fill mb-0">
-                                                            <input type="email" id="form3Example3c" class="form-control" placeholder="Your Email"/>
+                                                            <input type="email" id="form3Example4cd" class="form-control" name="email" placeholder="Your Email"/>
                                                         </div>
                                                     </div>
 
                                                     <div class="d-flex flex-row align-items-center mb-4">
                                                         <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
                                                         <div class="form-outline flex-fill mb-0">
-                                                            <input type="password" id="form3Example4c" class="form-control" placeholder="Password" />
+                                                            <input type="password" id="form3Example4cd" class="form-control" name = "pwd" placeholder="Password" />
                                                         </div>
                                                     </div>
 
                                                     <div class="d-flex flex-row align-items-center mb-4">
                                                         <i class="fas fa-key fa-lg me-3 fa-fw"></i>
                                                         <div class="form-outline flex-fill mb-0">
-                                                            <input type="password" id="form3Example4cd" class="form-control" placeholder="Repeat Password"/>
+                                                            <input type="password" id="form3Example4cd" class="form-control" name="pwdRpt" placeholder="Repeat Password"/>
                                                         </div>
                                                     </div>
 
@@ -161,6 +161,7 @@
                                                         type="checkbox"
                                                         value=""
                                                         id="form2Example3c"
+                                                        name="checkbox"
                                                         />
                                                         <label class="form-check-label" for="form2Example3">
                                                         I agree all statements in <a href="tos.html">Terms of service</a>
@@ -168,7 +169,7 @@
                                                     </div>
 
                                                     <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                                                        <button type="submit" name="submit" class="btn btn-primary btn-lg" >Register</button>
+                                                        <input type="submit" name="submit" class="btn btn-primary btn-lg" value="Register">
                                                     </div>
 
                                                 </form>
